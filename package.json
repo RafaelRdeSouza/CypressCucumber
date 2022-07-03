@@ -1,0 +1,19 @@
+{
+  "name": "cypresscucumber",
+  "version": "1.0.0",
+  "description": "Cypress com Cucumber",
+  "main": "index.js",
+  "keywords": [
+    "cypress"
+  ],
+  "author": "Rafael R.",
+  "license": "ISC",
+  "dependencies": {
+    "@badeball/cypress-cucumber-preprocessor": "^11.3.1",
+    "@cypress/browserify-preprocessor": "^3.0.2",
+    "cypress": "^10.2.0"
+  },
+  "cypress-cucumber-preprocessor": {
+    "stepDefinitions": "cypress/steps/**.js"
+  }
+}
